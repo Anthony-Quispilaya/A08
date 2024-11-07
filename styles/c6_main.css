@@ -88,6 +88,12 @@ section {
 	padding-right: 20px;
 	padding-bottom: 20px;
 }
+section h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
+}
 /* the styles for the article */
 article {
 	padding: .5em 0;
@@ -101,7 +107,12 @@ article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-
+article img {
+	float: right;
+	border: 1px solid black;
+	padding-bottom: 0;
+	margin: .5em 0 .5em 1em;
+}
 /* the styles for the aside */
 aside {
 	width: 215px;
